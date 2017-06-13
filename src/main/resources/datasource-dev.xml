@@ -4,9 +4,9 @@
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/blog" />
-        <property name="username" value="BlogDbUser" />
-        <property name="password" value="BlogDbPassword" />
+        <property name="url" value="jdbc:mysql://178.217.185.124:3306/blog" />
+        <property name="username" value="zylak" />
+        <property name="password" value="2fErrNJHM1xt1dFX" />
         <property name="testOnBorrow" value="true"/>
         <property name="validationQuery" value="SELECT 1"/>
     </bean>
